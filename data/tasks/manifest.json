@@ -1,0 +1,77 @@
+[
+ {
+  "task": "climate_detection",
+  "n": 1700,
+  "n_test": 400,
+  "labels": {
+   "yes": 1320,
+   "no": 380
+  },
+  "sha256": "b28549e5772dc646feb1983266a8a0ae53e590607aa75cbfe8f602fcd864dd50"
+ },
+ {
+  "task": "climate_sentiment",
+  "n": 1320,
+  "n_test": 320,
+  "labels": {
+   "neutral": 571,
+   "risk": 448,
+   "opportunity": 301
+  },
+  "sha256": "e45ecc852a489134215a06549abd909ff379e19b73da09837862dd5b786ffa1c"
+ },
+ {
+  "task": "climate_specificity",
+  "n": 1320,
+  "n_test": 320,
+  "labels": {
+   "non-specific": 798,
+   "specific": 522
+  },
+  "sha256": "b003eac1c80aa71119c99ba888abbc185f4d01ca03d908a04f851b721cfd5d79"
+ },
+ {
+  "task": "climate_commitments_actions",
+  "n": 1320,
+  "n_test": 320,
+  "labels": {
+   "no": 797,
+   "yes": 523
+  },
+  "sha256": "f6a377b1e67cb0bad608559d9cf262f1df352e5012b63b3c69969c28f2c1f078"
+ },
+ {
+  "task": "tcfd_recommendations",
+  "n": 1700,
+  "n_test": 400,
+  "labels": {
+   "strategy": 716,
+   "none": 380,
+   "metrics": 304,
+   "risk": 212,
+   "governance": 88
+  },
+  "sha256": "bc04cfdac7326b0a996b9af728b078967d4023ec18765093f36b9940752bcabf"
+ },
+ {
+  "task": "environmental_claims",
+  "n": 2647,
+  "n_test": 265,
+  "labels": {
+   "no": 1982,
+   "yes": 665
+  },
+  "sha256": "f34289b41ee8bfcfbe642f957f867115807569caa5d7e1b5cc6f2544139c36b0"
+ },
+ {
+  "task": "netzero_reduction",
+  "n": 3441,
+  "n_test": 1032,
+  "labels": {
+   "none": 1522,
+   "reduction": 979,
+   "net-zero": 940
+  },
+  "sha256": "976c0adc2edf0d57cf350b532431f5a109ace9742a87af41d9296de21fa5906c"
+ }
+]
